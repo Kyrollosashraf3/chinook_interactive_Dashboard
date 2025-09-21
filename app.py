@@ -13,7 +13,6 @@ conn = sqlite3.connect("chinook.db")
 
 
 st.title("🎵 Chinook Dashboard")
-st.subheader("Customer Distribution by Country")
 
 # 1. Top Customers by Spending
 query_cutomer_df  = """
