@@ -13,7 +13,7 @@ conn = sqlite3.connect("chinook.db")
 
 
 st.title("🎵 Chinook Dashboard")
-st.subheader(" to make ")
+#st.subheader("     ")
 
 # 1. Top Customers by Spending
 query_cutomer_df  = """
